@@ -685,16 +685,16 @@ for await (result of MC8(generators)) { ... }
 ## 证据落点
 
 - `cli.js`
-  - `412841-412875`：`BU4(...)`
-  - `413049-413101`：`AU8(...)`
-  - `413107-413218`：`ihz(...)` 与 `m5A(...)`
-  - `393233-393235`：bridge system/init 的 `commands.filter(sp8)`
-  - `278846-279185`：`processSlashCommand(...) / nx_(...) / r74(...)`
-  - `278662-278687`：`MC8(...)`
-  - `324567-324718`：`N8z(...) / V8z(...) / J68(...) / et1(...)`
-  - `325497-325507`：`qe1(...)`
-  - `324340-324350`：`KE6(...)` / `Nq(...)`
-  - `330734-330740`、`331796-331804`、`335862-335872`、`355412-355418`、`367628-367634`、`371965-371972`：`sp8(...)` 命中的实名命令对象
+  - `BU4(...)`
+  - `AU8(...)`
+  - `ihz(...)` 与 `m5A(...)`
+  - bridge system/init 的 `commands.filter(sp8)`
+  - `processSlashCommand(...) / nx_(...) / r74(...)`
+  - `MC8(...)`
+  - `N8z(...) / V8z(...) / J68(...) / et1(...)`
+  - `qe1(...)`
+  - `KE6(...)` / `Nq(...)`
+  - `sp8(...)` 命中的实名命令对象
 - [../02-execution/05-attachments-and-context-modifiers.md](../02-execution/05-attachments-and-context-modifiers.md)
   - attachment producer/consumer 细节
 

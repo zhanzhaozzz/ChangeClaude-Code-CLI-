@@ -29,17 +29,17 @@
 ## 证据落点
 
 - `cli.js`
-  - `110834-110854`：`PO = "WebFetch"` 与工具 prompt 文本 `Ed7`
-  - `303731-303938`：`Qo1 / CY4 / bY4 / IY4 / do1 / co1 / lo1`
-  - `304037-304249`：`WebFetch` 的 schema、权限、`call(...)`、`mapToolResultToToolResultBlockParam(...)`
-  - `381249`：`web_fetch_tool_result` 被流式 UI 归为 `tool-input`
-  - `383641-383709`：`server_tool_use` / result block 的通用 streaming 累积逻辑
-  - `384171-384196`：`UZ(...)` 小模型调用辅助函数
-  - `427950`、`428545`、`428985`、`432387-432399`、`434020`：bundle 内嵌 SDK/示例文档里的 `WebFetchTool20260209` / `web_fetch_20260209`
+  - `PO = "WebFetch"` 与工具 prompt 文本 `Ed7`
+  - `Qo1 / CY4 / bY4 / IY4 / do1 / co1 / lo1`
+  - `WebFetch` 的 schema、权限、`call(...)`、`mapToolResultToToolResultBlockParam(...)`
+  - `web_fetch_tool_result` 被流式 UI 归为 `tool-input`
+  - `server_tool_use` / result block 的通用 streaming 累积逻辑
+  - `UZ(...)` 小模型调用辅助函数
+  - bundle 内嵌 SDK/示例文档里的 `WebFetchTool20260209` / `web_fetch_20260209`
 - `claude/sdk-tools.d.ts`
-  - `74-82`：`usage.server_tool_use.web_search_requests / web_fetch_requests`
-  - `161-185`：`WebFetchOutput`
-  - `606-614`：`WebFetchInput`
+  - `usage.server_tool_use.web_search_requests / web_fetch_requests`
+  - `WebFetchOutput`
+  - `WebFetchInput`
 
 ## 本地工具契约
 

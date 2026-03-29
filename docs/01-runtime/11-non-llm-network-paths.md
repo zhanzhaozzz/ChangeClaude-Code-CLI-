@@ -406,7 +406,7 @@ appendEntry()
 
 因此它属于 stats/usage 相关的外围同步机制。
 
-这里还能再补两条关键边界，见 `cli.js:104638-104895`：
+这里还能再补两条关键边界，见 `cli.js`：
 
 - `ZZ1` 构造时就会调用 `retryPreviousBatches()`，因此启动期会扫描 `telemetry/` 下同 session 的历史 `1p_failed_events.*.json`，并在后台回捞重试
 - 回捞时会排除当前活动批次文件；若达到 `maxAttempts` 仍失败，对应 failed-batch 文件会被直接删除

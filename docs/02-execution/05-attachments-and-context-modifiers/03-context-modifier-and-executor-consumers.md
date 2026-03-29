@@ -124,9 +124,9 @@ tool.call(...)
 ## 证据落点
 
 - `cli.js`
-  - `315456-315485`、`315804-315806`、`315981-316018`：generic consumer
-  - `284787-284835`：`SkillTool` concrete producer
-  - `416682`、`438242`：`seed_read_state` 反证
+  - generic consumer
+  - `SkillTool` concrete producer
+  - `seed_read_state` 反证
 - [06-context-runtime-and-tool-use-context.md](../06-context-runtime-and-tool-use-context.md)
 
 Creative Commons Attribution 4.0 International

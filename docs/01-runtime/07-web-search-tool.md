@@ -32,16 +32,16 @@
 ## 证据落点
 
 - `cli.js`
-  - `304991-305119`：`Ow4 / jw4 / Hw4 / Ka1 / _l_`
-  - `305180-305385`：`WebSearchTool` schema、`call(...)`、`mapToolResultToToolResultBlockParam(...)`
-  - `383228-383236`：`Jk6(...)`
-  - `5666-5681`：`client.beta.messages.create(...) -> POST /v1/messages?beta=true`
-  - `381249`：`web_search_tool_result` 与 `web_fetch_tool_result` 都被归为 `tool-input`
-  - `427940-427958`、`434014-434026`：bundle 内嵌 SDK 文档里的 `WebSearchTool20260209`
+  - `Ow4 / jw4 / Hw4 / Ka1 / _l_`
+  - `WebSearchTool` schema、`call(...)`、`mapToolResultToToolResultBlockParam(...)`
+  - `Jk6(...)`
+  - `client.beta.messages.create(...) -> POST /v1/messages?beta=true`
+  - `web_search_tool_result` 与 `web_fetch_tool_result` 都被归为 `tool-input`
+  - bundle 内嵌 SDK 文档里的 `WebSearchTool20260209`
 - `claude/sdk-tools.d.ts`
-  - `74-82`：`usage.server_tool_use.web_search_requests / web_fetch_requests`
-  - `187-220`：`WebSearchOutput`
-  - `616-628`：`WebSearchInput`
+  - `usage.server_tool_use.web_search_requests / web_fetch_requests`
+  - `WebSearchOutput`
+  - `WebSearchInput`
 
 ## 本地工具契约
 

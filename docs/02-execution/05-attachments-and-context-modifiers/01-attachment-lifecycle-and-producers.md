@@ -309,10 +309,10 @@ non-fork resume
 ## 证据落点
 
 - `cli.js`
-  - `324339-324345`：`P6z(...)`
-  - `324339-324340`：`D6z(...) / f6z(...)`
-  - `281365-281386`：`Su_(...)`、`I76(...)`
-  - `420312-420318`：resume UI 主链中的 `AVq(...) / mN8(...)`
+  - `P6z(...)`
+  - `D6z(...) / f6z(...)`
+  - `Su_(...)`、`I76(...)`
+  - resume UI 主链中的 `AVq(...) / mN8(...)`
 - [../../03-ecosystem/03-plan-system.md](../../03-ecosystem/03-plan-system.md)
 - [../../03-ecosystem/05-skill-system.md](../../03-ecosystem/05-skill-system.md)
 

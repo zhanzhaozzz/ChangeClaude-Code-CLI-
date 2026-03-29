@@ -376,24 +376,24 @@ transcript 搜索文本默认走 `tk4(...)`。
 ## 证据落点
 
 - `cli.js`
-  - `170632-170679`：`lv8 / lv6 / iv6 / H2q / ll6`
-  - `225478-225526`：`VO(...)`
-  - `225539-225714`：`FCq / cCq / nCq`
-  - `225824-225847`：`aCq(...)`
-  - `225898-225930`：`Abq(...)`
-  - `274709-274789`：`kO6(...)`
-  - `279877-279892`：`qq4 / Kq4`
-  - `290411-290494`：`X34 / D34 / f34 / W34`
-  - `291804-291840`：`u34(...)`
-  - `292700-293081`：`NotebookEdit` 的 `q94 / z94 / Y94 / w94`
-  - `303988-304019`：`BY4(...)`
-  - `305138-305146`：`Hw4(...)`
-  - `315478-315486`：执行器把 `toolUseResult` 与 `message.content` 同时写入 `Q8(...)`
-  - `318827-318857`：headless / remote 输出侧单独携带 `tool_use_result`
-  - `358509-358558`：`isResultTruncated(...)` 与 `extractSearchText(...)` 对 transcript 可见性/搜索的回流
-  - `380145`：`iCq(...)`
-  - `380524-380526`：lookup 结构
-  - `382494-382507`：`$$6 / O$6 / UW / vy8 / Lp1 / gb4`
+  - `lv8 / lv6 / iv6 / H2q / ll6`
+  - `VO(...)`
+  - `FCq / cCq / nCq`
+  - `aCq(...)`
+  - `Abq(...)`
+  - `kO6(...)`
+  - `qq4 / Kq4`
+  - `X34 / D34 / f34 / W34`
+  - `u34(...)`
+  - `NotebookEdit` 的 `q94 / z94 / Y94 / w94`
+  - `BY4(...)`
+  - `Hw4(...)`
+  - 执行器把 `toolUseResult` 与 `message.content` 同时写入 `Q8(...)`
+  - headless / remote 输出侧单独携带 `tool_use_result`
+  - `isResultTruncated(...)` 与 `extractSearchText(...)` 对 transcript 可见性/搜索的回流
+  - `iCq(...)`
+  - lookup 结构
+  - `$$6 / O$6 / UW / vy8 / Lp1 / gb4`
 
 Creative Commons Attribution 4.0 International
 

@@ -409,8 +409,8 @@ producer 至少有两路：
 ## 证据落点
 
 - `cli.js`
-  - `381658-382020`：`plan_file_reference`、`invoked_skills`、`task_status`、`async_hook_response`、usage / delta attachments 的 materialize
-  - `324339-324345`：`queued_command`、`task_status`、`async_hook_response`
+  - `plan_file_reference`、`invoked_skills`、`task_status`、`async_hook_response`、usage / delta attachments 的 materialize
+  - `queued_command`、`task_status`、`async_hook_response`
 - [../../03-ecosystem/03-plan-system.md](../../03-ecosystem/03-plan-system.md)
 - [../../03-ecosystem/05-skill-system.md](../../03-ecosystem/05-skill-system.md)
 

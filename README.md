@@ -16,6 +16,8 @@ To obtain the Claude Code CLI package analyzed by this repository:
 npm pack @anthropic-ai/claude-code@2.1.84
 ```
 
+The Python scripts under `recovery_tools/` can perform an initial round of cleanup on obfuscated or encrypted source code.
+
 This repository is based only on static analysis of Claude Code CLI v2.1.84 obtained through the method above. It does not include runtime dynamic analysis, and it did not use any Anthropic PBC network services, including LLM inference services.
 
 ## What This Repository Provides
@@ -136,6 +138,10 @@ But you must:
 - Indicate whether changes were made
 
 See [LICENSE](./LICENSE) in the repository root for the full license text.
+
+## Acknowledgements
+
+Thanks to the [Linux Do](https://linux.do) community for its support.
 
 ## Disclaimer
 
